@@ -16,7 +16,7 @@ public class Sistema {
 		for(Object key: pk) {
 			System.out.println(key + " "+ p.get(key));
 		}
-		*/
+		
 		Console c = System.console();
 		
 		
@@ -27,6 +27,9 @@ public class Sistema {
 		char[] pass = c.readPassword();
 		
 		System.out.println("usuário =  "+user+ " pass = "+pass);
+	*/
+		
+		Runtime.get().exec("terminal");
 
 	}
 
